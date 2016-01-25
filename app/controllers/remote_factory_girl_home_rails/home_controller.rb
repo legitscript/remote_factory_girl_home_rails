@@ -28,7 +28,7 @@ module RemoteFactoryGirlHomeRails
     end
 
     def attributes(params)
-      Array(params['attributes']).map { |t| t.to_sym if t.is_a? String }
+      Array(params['attributes']).map{ |t| (t.is_a? String) ? t.to_sym : t }
     end
   end
 end
