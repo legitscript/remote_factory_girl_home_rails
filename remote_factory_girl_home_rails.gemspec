@@ -4,8 +4,8 @@ $:.push File.expand_path("../lib", __FILE__)
 Gem::Specification.new do |s|
   s.name        = "remote_factory_girl_home_rails"
   s.version     = "1.0.2"
-  s.authors     = ["Travis Douce"]
-  s.email       = ["travisdouce@gmail.com"]
+  s.authors     = ["Travis Douce", "Cormac Mulhall"]
+  s.email       = ["travisdouce@gmail.com", "cormac.mulhall@legitscript.com"]
   s.homepage    = "https://github.com/tdouce/remote_factory_girl_home_rails"
   s.summary     = ""
   s.description = ""
